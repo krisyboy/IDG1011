@@ -1,4 +1,4 @@
-fetch('https://github.com/krisyboy/IDG1011/blob/master/Oblig1/studenter.json')
+fetch('https://raw.githubusercontent.com/krisyboy/IDG1011/master/Oblig1/studenter.json')
   .then(data=>data.json())
   .then(json=> {
 
