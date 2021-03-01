@@ -23,7 +23,7 @@ function myJson () {
 }
 
 function showBwu () {
-  fetch("./studenter.json")
+  fetch('https://raw.githubusercontent.com/krisyboy/IDG1011/master/Oblig1/studenter.json')
     .then(data=>data.json())
     .then(json=> {
       let studenter = document.querySelector('.studenter');
