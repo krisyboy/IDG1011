@@ -15,7 +15,7 @@ bixd.addEventListener("click", displayText);
 all.addEventListener("click", displayText)
 
 function myJson () {
-  fetch("./studenter.json")
+  fetch('https://raw.githubusercontent.com/krisyboy/IDG1011/master/Oblig1/studenter.json')
     .then(data=>data.json())
     .then(json=> {
       const obj = JSON.parse(json);
